@@ -62,14 +62,16 @@ export default function Rooms() {
             <p className={'text-2xl font-black mb-6 sub-title'}>Trust and quality are our atuus</p>
             <div className={'grid grid-cols-2 gap-6'}>
                 {
-                    rooms.map((room, i) => (<div className={'flex flex-row bg-light-grey'} key={`room.title-${i}`}>
-                        <img
-                            src={room.image}
-                            alt=""/>
-                        <div className={'py-3 px-3 flex flex-col justify-center'}>
-                            <p className={'text-primary mb-3 font-bold text-sm line-height-title'}>{room.title}</p>
-                            <p className={'font-semibold mb-3 text-lg line-height-sub-title'}>{room.subTitle}</p>
-                            <p className={'text-grey line-height-text'}>{room.text}</p>
+                    rooms.map((room, i) => (<div className={'flex flex-row bg-light-grey justify-between'} key={`room.title-${i}`}>
+                        <div className={'flex flex-row'}>
+                            <img
+                                src={room.image}
+                                alt=""/>
+                            <div className={'py-3 px-3 flex flex-col justify-center'}>
+                                <p className={'text-primary mb-3 font-bold text-sm line-height-title'}>{room.title}</p>
+                                <p className={'font-semibold mb-3 text-lg line-height-sub-title'}>{room.subTitle}</p>
+                                <p className={'text-grey line-height-text'}>{room.text}</p>
+                            </div>
                         </div>
                         <div className={'flex flex-col bg-primary items-end justify-center'}>
                             <a href="">

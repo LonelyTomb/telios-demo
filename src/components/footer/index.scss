@@ -1,0 +1,39 @@
+section.seven {
+  .sub-title {
+    width: 60%;
+    text-align: left;
+    line-height: 56px;
+
+  }
+
+  .slide {
+    width: 25%;
+  }
+
+  .slider-container {
+    margin-bottom: -3px;
+    position: relative;
+  }
+}
+footer {
+  background: {
+    color: #121212;
+  };
+
+  p {
+    line-height: 21px;
+  }
+
+  .main-footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

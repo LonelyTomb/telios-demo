@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 21px;
+}
+
+div,
+p,
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a,
+span,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.text-white {
+  color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-primary {
+  color: var(--primary)
+}
+
+.text-secondary {
+  color: var(--secondary)
+}
+
+.text-grey {
+  color: var(--grey)
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 800;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-md {
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-2xl {
+  font-size: 2.625rem;
+}
+
+.text-3xl {
+  font-size: 3.875rem;
+}
+
+.text-4xl {
+  font-size: 6.5rem;
+}
+
+.text-5xl {
+  font-size: 7.5rem;
+}
+
+.line-height-title,
+.line-height-text {
+  line-height: 21px;
+}
+
+.line-height-sub-title {
+  line-height: 27px;
+}

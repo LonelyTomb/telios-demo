@@ -1,0 +1,14 @@
+header.header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background: transparent;
+  ul {
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

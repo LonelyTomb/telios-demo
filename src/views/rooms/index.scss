@@ -1,0 +1,42 @@
+.rooms-container {
+  .page-title {
+    background: {
+      image: url("https://res.cloudinary.com/nazarick/image/upload/q_auto:low/v1606034249/Group_9.png");
+      size: cover;
+      position: center;
+      repeat: no-repeat;
+    };
+
+    h1 {
+      line-height: 56px;
+    }
+  }
+
+  .page-content.one {
+    .sub-title {
+      width: 50%;
+      line-height: 56px;
+
+    }
+  }
+  .page-content.two {
+    form {
+      .grid {
+        & > div {
+          width: calc(100% - 1.5rem);
+        }
+
+        input {
+          background: {
+            color: var(--white);
+          };
+          border: 2px solid #EBEBEB;
+
+          &::placeholder {
+            color: #CECECE;
+          }
+        }
+      }
+    }
+  }
+}

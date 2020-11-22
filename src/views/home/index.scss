@@ -1,0 +1,156 @@
+.home-container {
+  section.one {
+    min-height: 70vh;
+    position: relative;
+    background: {
+      image: url("https://res.cloudinary.com/nazarick/image/upload/q_auto:low/v1606034249/Group_9.png");
+      size: cover;
+      position: center;
+      repeat: no-repeat;
+    };
+
+    form {
+      .grid {
+        width: 90%;
+
+        & > div {
+          width: calc(100% - 1.5rem);
+        }
+
+        input {
+          background: {
+            color: #EEEEEE;
+          };
+          border: none;
+
+          &::placeholder {
+            color: #CECECE;
+          }
+        }
+      }
+    }
+
+    .booking-container {
+      bottom: -60px;
+
+      & > div {
+        form {
+          box-shadow: 0px 15px 30px #0000001A;
+        }
+      }
+    }
+  }
+
+  .main-welcome-text {
+    line-height: 73px;
+  }
+
+  .sub-welcome-text {
+    width: 60%;
+    line-height: 21px;
+  }
+}
+
+section.two {
+  .sub-title {
+    line-height: 56px;
+  }
+
+  .details {
+    & p:first-child {
+      line-height: 25px;
+    }
+
+    & p:last-child {
+      line-height: 21px;
+    }
+  }
+}
+
+section.three {
+  background: {
+    color: rgba(#000000, 0.5);
+    image: url("https://res.cloudinary.com/nazarick/image/upload/v1606039230/chris-lee-70l1tDAI6rM-unsplash.png");
+    repeat: no-repeat;
+    size: cover;
+    position: center;
+    blend-mode: overlay;
+  };
+
+  .sub-title {
+    width: 30%;
+    line-height: 56px;
+
+  }
+
+  .slick-slider {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+
+  .card {
+    img {
+      background: {
+        color: var(--primary);
+      };
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    p {
+      &:first-child {
+        line-height: 27px;
+      }
+
+      &:last-child {
+        line-height: 21px;
+      }
+    }
+  }
+}
+
+section.four {
+  .sub-title {
+    width: 90%;
+  }
+
+  .testimonial {
+    & > div {
+      p:last-child {
+        opacity: 50%
+      }
+    }
+
+    .testimonial-text {
+      width: 60%;
+      line-height: 21px;
+    }
+  }
+
+  .arrow-left {
+    right: 0;
+    bottom: 0;
+  }
+
+  .arrow-right {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+section.five {
+  .sub-title {
+    width: 50%;
+    line-height: 56px;
+
+  }
+}
+
+section.six {
+  .sub-title {
+    width: 50%;
+    line-height: 56px;
+
+  }
+}

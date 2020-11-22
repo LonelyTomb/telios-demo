@@ -13,7 +13,7 @@ const cx = classNames.bind(styles);
 
 export default function Home() {
     const PrevArrow = (props) => {
-        const {className, style, onClick} = props;
+        const {onClick} = props;
         return (
             <span className={'bg-white arrow-left p-4 mr-2'} onClick={onClick} style={{opacity: '30%'}}>
                 <img src={arrowLeft} alt="" className={''}/>
@@ -21,7 +21,7 @@ export default function Home() {
         );
     }
     const NextArrow = (props) => {
-        const {className, style, onClick} = props;
+        const {onClick} = props;
         return (
             <span className={'bg-white arrow-left p-4 ml-2'} onClick={onClick}>
                 <img src={arrowRight} alt="" className={''}/>

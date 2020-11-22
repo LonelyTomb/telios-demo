@@ -1,10 +1,9 @@
-import React, {useState} from "react"
+import React from "react"
 import classNames from 'classnames/bind';
 import {NavLink} from 'react-router-dom';
 
 import styles from './index.scss';
 
-import arrowRight from '../../assets/images/svg/arrow-right.svg'
 import send from '../../assets/images/svg/send.svg'
 import arrowRightWhite from "../../assets/images/svg/arrow-right-white.svg";
 

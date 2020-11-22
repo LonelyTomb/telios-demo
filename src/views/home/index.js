@@ -294,7 +294,7 @@ export default function Home() {
             </div>
         </section>
         <section className={'page-section six px-lg pt-10 pb-lg'}>
-            <p className={'text-react object in img srcprimary mb-4 font-bold title'}>Blog</p>
+            <p className={'text-primary mb-4 font-bold title'}>Blog</p>
             <p className={'text-2xl font-black mb-6 sub-title'}>Read our newest blog post right away</p>
             <div className={'grid grid-cols-3 gap-6'}>
                 <div>
